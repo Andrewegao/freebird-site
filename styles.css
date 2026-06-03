@@ -1,5 +1,5 @@
 /* Freebird marketing + legal — quiet-premium, no framework, no JS deps.
-   Brand mirrors the app: Heron Blue accent, warm-neutral canvas, SF system
+   Brand mirrors the app: Freebird Orange accent, warm-neutral canvas, SF system
    font stack, weight/size hierarchy over color. Dark mode via prefers-color-scheme. */
 
 :root {
@@ -19,9 +19,9 @@
   --text-2: #5C594F;   /* secondary, AA on --bg */
   --text-3: #757166;   /* tertiary/meta, AA on --bg */
 
-  --accent: #3F7CA6;        /* Heron Blue */
-  --accent-press: #336488;
-  --accent-soft: rgba(63, 124, 166, 0.10);
+  --accent: #FF5A1F;        /* Freebird Orange */
+  --accent-press: #D8430E;
+  --accent-soft: rgba(255, 90, 31, 0.10);
   --on-accent: #FFFFFF;
 
   --r-card: 18px;
@@ -50,9 +50,9 @@
     --text-2: #BBB6AB;
     --text-3: #8E897E;
 
-    --accent: #74A8CB;
-    --accent-press: #5E93B7;
-    --accent-soft: rgba(116, 168, 203, 0.16);
+    --accent: #FF7A47;
+    --accent-press: #FF5A1F;
+    --accent-soft: rgba(255, 122, 71, 0.16);
     --on-accent: #14130E;
 
     --shadow-1: 0 1px 2px rgba(0, 0, 0, 0.45),
